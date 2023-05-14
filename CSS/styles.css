@@ -1,3 +1,47 @@
+/* CSS CUSTOM PROPERTIES */
+
+
+:root {
+--clr-primary-300: hsl(227, 10%, 46%);
+--clr-primary-400: hsl(185, 75%, 39%);
+--clr-primary-800: hsl(229, 23%, 23%);
+
+--clr-neutral-500: hsl(0, 0%, 59%);
+
+--ff-base: 'Kumbh Sans', sans-serif;
+
+--fs-base: 1.125rem;
+
+--fw-base: 400;
+--fw-accent: 700;
+}
+
+/* BASIC RESET */
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* GENERAL STYLES */
+
+body {
+    font-family: var(--ff-base);
+    font-size: var(--fs-base);
+}
+
+
+
 /* FEM ATTRIB */
 
 
