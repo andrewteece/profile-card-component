@@ -106,7 +106,24 @@ body {
     background-color: var(--clr-primary-400);
 }
 
+/* COMPOSITION/LAYOUT STYLES */
 
+.container {
+    max-width: 23rem;
+}
+
+.card__stats {
+    display: flex;
+    flex-wrap: wrap;
+    background: #ffffff;
+    gap: 1em;
+}
+
+/* UTILITIES */
+
+.card__image {
+    border-radius: 50%;
+}
 
 /* FEM ATTRIB */
 
