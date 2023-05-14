@@ -100,6 +100,10 @@ body {
     min-height: 100vh;
     font-family: var(--ff-base);
     font-size: var(--fs-base);
+    background: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+    background-repeat: no-repeat;
+    background-color: var(--clr-primary-400);
 }
 
 
