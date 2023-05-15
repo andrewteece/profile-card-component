@@ -1,33 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Frontend Mentor | Profile card component</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="CSS/styles.css" class="css">
-</head>
-<body>
-  <main class="container">
-    <img src="images/image-victor.jpg" class="card__image"  alt="Picture of Victor">
-    <h2>Victor Crest <span>26</span></h2>
-    <p>London</p>
-    <hr>
-    <section class="card__stats">
-      <p>80K</p>
-      <p>Followers</p>
-      <p>803K</p>
-      <p>Likes</p>
-      <p>1.4K</p>
-      <p>Photos</p>
-    </section>
-  </main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Profile card component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/styles.css" class="css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="sr__only">Profile Card of Victor Crest</h1>
+      <div class="card">
+        <img
+          src="/images/bg-pattern-card.svg"
+          class="card__background"
+          alt="card background"
+        />
+        <article>
+          <div class="card__image">
+            <img src="images/image-victor.jpg" alt="Picture of Victor" />
+          </div>
+          <div class="card__name">
+            <h2>Victor Crest <span class="card__age">26</span></h2>
+            <p class="card__city">London</p>
+          </div>
+          <div class="card__stats">
+            <p class="stats__item">80K<span>Followers</span></p>
+            <p class="stats__item">803K<span>Likes</span></p>
+            <p class="stats__item">1.4K<span>Photos</span></p>
+          </div>
+        </article>
+      </div>
+    </main>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Andrew Teece</a>.
+    </div>
+  </body>
 </html>
