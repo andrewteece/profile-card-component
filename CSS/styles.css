@@ -132,7 +132,7 @@ body {
     justify-content: space-between;
 }
 
-.card__name {
+.card__name {;
   color: var(--clr-primary-800);
 }
 
